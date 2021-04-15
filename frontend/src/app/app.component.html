@@ -1,0 +1,176 @@
+<router-outlet></router-outlet>
+<!-- Header -->
+<section>
+
+    <div class="collapse" id="navbar-responsive">
+        <a class="nav-link" href="#cuerpo">Inicio</a>
+        <a class="nav-link" href="#planes">Planes</a>
+        <a class="nav-link" href="#contacto">Contáctenos</a>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <img src="../assets/images/logo.png" alt="" width="100" height="80">
+            <a class="navbar-brand" href="#"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Planes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Contáctenos</a>
+                    </li>
+                </ul>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end my-2 my-lg-0 ml-auto">
+                    <button class="btn btn-primary m-md-2" type="button">Iniciar Sesión <fa-icon [icon]="faSignInAlt"></fa-icon></button>
+                    <button class="btn btn-primary m-md-2" type="button">Registrate <fa-icon [icon]="faUserPlus"></fa-icon></button>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+</section>
+<!--Imagen-->
+<!--Opiniones -->
+
+<section>
+
+</section>
+<!--Section Precios-->
+<section class="pricing py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Codling Cliente-->
+            <div class="col-lg-4">
+                <div class="card mb-5 mb-lg-0">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">
+                            <fa-icon [icon]="faCode" size="6x"></fa-icon>
+                        </h5>
+                        <h6 class="card-price text-center"><span class="period"><strong>Cliente</strong></span></h6>
+                        <hr>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><fa-icon [icon]="faCheck"></fa-icon></span><strong>Acceso a ver carpetas publicas</strong></li>
+                            <li class="text-muted"><span class="fa-li"><fa-icon [icon]="faTimes"></fa-icon></span>0 Almacenamiento</li>
+                            <li class="text-muted"><span class="fa-li"><fa-icon [icon]="faTimes"></fa-icon></span>0 Proyectos en Linea</li>
+                            <li class="text-muted"><span class="fa-li"><fa-icon [icon]="faTimes"></fa-icon></span>0 Carpetas Almacenadas</li>
+                            <li class="text-muted"><span class="fa-li"><fa-icon [icon]="faTimes"></fa-icon></span>0 Otros Proyectos</li>
+                        </ul>
+                        <a href="#" class="btn btn-block btn-primary">
+                            <h6 class="card-price text-center">$<span class="period">GRATIS</span></h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Codling Member -->
+            <div class="col-lg-4">
+                <div class="card mb-5 mb-lg-0">
+                    <div class="card-body">
+                        <h5 class="card-title  text-center">
+                            <fa-icon [icon]="faFileCode" size="6x"></fa-icon>
+                        </h5>
+                        <h6 class="card-price text-center"><span class="period">Member</span></h6>
+                        <hr>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><fa-icon [icon]="faCheck"></fa-icon></span><strong>5 Proyectos Para Ser Colaborador</strong></li>
+                            <li><span class="fa-li"><fa-icon [icon]="faCheck"></fa-icon></span><strong>5GB Almacenamiento</strong></li>
+                            <li><span class="fa-li"><fa-icon [icon]="faCheck"></fa-icon></span><strong>4 Proyectos en Linea</strong></li>
+                            <li><span class="fa-li"><fa-icon [icon]="faCheck"></fa-icon></span><strong>10 Carpetas Almacenadas</strong></li>
+                            <li><span class="fa-li"><fa-icon [icon]="faCheck"></fa-icon></span><strong>3 Otros Proyectos</strong></li>
+                        </ul>
+                        <a href="#" class="btn btn-block btn-primary text-uppercase">
+                            <h6 class="card-price text-center">$20<span class="period">/mensuales</span></h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Codling Pro -->
+            <div class="col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title  text-center">
+                            <fa-icon [icon]="faLaptopCode" size="6x"></fa-icon>
+                        </h5>
+                        <h6 class="card-price text-center"><span class="period">Pro</span></h6>
+                        <hr>
+                        <ul class="fa-ul">
+                            <li><span class="fa-li"><fa-icon [icon]="faCheck"></fa-icon></span><strong>15 Proyectos Para Ser Colaborador</strong></li>
+                            <li><span class="fa-li"><fa-icon [icon]="faCheck"></fa-icon></span><strong>10GB Almacenamiento</strong></li>
+                            <li><span class="fa-li"><fa-icon [icon]="faCheck"></fa-icon></span><strong>7 Proyectos en Linea</strong></li>
+                            <li><span class="fa-li"><fa-icon [icon]="faCheck"></fa-icon></span><strong>20 Carpetas Almacenadas</strong></li>
+                            <li><span class="fa-li"><fa-icon [icon]="faCheck"></fa-icon></span><strong>7 Otros Proyectos</strong></li>
+                        </ul>
+                        <a href="#" class="btn btn-block btn-primary text-uppercase">
+                            <h6 class="card-price text-center">$35<span class="period">/mensuales</span></h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Expertos en-->
+<section>
+    <div class="experts-n">
+        <div class="contenedor" id="expertos">
+            <h2 class="subtitulo">Experiencia en:</h2>
+            <div class="experts ">
+                <div class="cont-expert">
+                    <img src="../assets/images/Startup_Isometric.svg" alt="">
+                    <h4 class="n-experts text-center">Crea, imagina y realiza tus proyectos con nosotros</h4>
+                </div>
+                <div class="cont-expert">
+                    <img src="../assets/images/Data Arranging_Outline.svg" alt="">
+                    <h4 class="n-experts text-center">Capacidad de ordenar tu espacio de trabajo de distintos proyectos</h4>
+                </div>
+                <div class="cont-expert ">
+                    <img src="../assets/images/Team work_Two Color.svg " alt="">
+                    <h4 class="n-experts text-center">La oportunidad de invitar a colaboradores en tus proyectos</h4>
+                </div>
+                <div class="cont-expert ">
+                    <img src="../assets/images/Notifications_Isometric.svg" alt="">
+                    <h4 class="n-experts text-center">Notificaciones cuando sean revisados tus proyectos por clientes</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Footer-->
+<footer id="contacto">
+    <div class="contenedor footer-content">
+        <div class="contact-us">
+            <h1>Codling
+                <div class="logo-icon">
+                    <fa-icon [icon]="faTerminal"></fa-icon>
+                </div>
+            </h1>
+            <p class="brand">Codifica y administra tus proyectos con nosotros</p>
+        </div>
+        <div class="social-media">
+            <a href="" target="_blank" class="social-media-icon">
+                <fa-icon [icon]="faFacebookF"></fa-icon>
+            </a>
+            <a href="./" class="social-media-icon">
+                <fa-icon [icon]="faTwitter"></fa-icon>
+            </a>
+            <a href="" target="_blank" class="social-media-icon">
+                <fa-icon [icon]="faInstagram"></fa-icon>
+            </a>
+            <a href="" target="_blank" class="social-media-icon">
+                <fa-icon [icon]="faWhatsapp"></fa-icon>
+            </a>
+        </div>
+    </div>
+    <div class="line"></div>
+</footer>
+<section>
+
+</section>
